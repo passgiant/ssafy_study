@@ -1,0 +1,19 @@
+T = int(input())
+for test_case in range(1, T + 1):
+  origin = list(map(int, input()))
+  reset = [0 for _ in range(len(origin))]
+  ans = 0
+  for i in range(len(origin)):
+    if origin[i] == 0 and reset[i] != 0:
+      for j in range(i, len(origin)):
+        reset[j] = 0
+      ans += 1
+      if origin == reset:
+        break
+    elif origin[i] == 1 and reset[i] != 1:
+      for j in range(i, len(origin)):
+        reset[j] = 1
+      ans += 1
+      if origin == reset:
+        break
+  print(f'#{test_case} {ans}')
