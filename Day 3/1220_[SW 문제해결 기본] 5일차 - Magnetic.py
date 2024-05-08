@@ -8,19 +8,14 @@ def solution():
         stack = []
         for row in range(N):
             if board[row][col] == 1:
-                if not stack:
-                    stack.append(1)
-                elif stack[-1] == 1:
                     stack.append(1)
             
             elif board[row][col] == 2:
                 if stack:
-                    if stack[-1] == 1:
-                        cnt += 1
-                        stack.clear()
+                    cnt += 1
+                    stack.clear()
     
     return cnt
-
 
 
 T = 10
