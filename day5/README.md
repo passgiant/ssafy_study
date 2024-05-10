@@ -7,3 +7,7 @@
 ## Palindrome 4
 ![펠린드롬4](https://github.com/passgiant/ssafy_study/assets/84299665/b26642f5-1ac6-456c-826a-3dee16a2b2d2)
 
+## 동적 할당x
+![동적배열x](https://github.com/passgiant/ssafy_study/assets/84299665/00d84d23-6792-4879-bca9-b52fed0e24ba)
+## 동적 할당o
+![동적 배열 생성](https://github.com/passgiant/ssafy_study/assets/84299665/16cd542d-a660-4944-808c-160df2b3bbd3)
