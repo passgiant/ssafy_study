@@ -16,7 +16,7 @@ import java.io.*;
  * 
  **/
 
-class Solution {
+class View {
 	public static void main(String args[]) throws Exception {
 		
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
