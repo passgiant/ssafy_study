@@ -8,7 +8,7 @@ https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&co
 
 각 문자는 ‘o’또는 ‘.’으로, ‘o’는 돌이 있는 칸을 의미하고, ‘.’는 돌이 없는 칸을 의미한다.
 
-(https://github.com/passgiant/ssafy_study/blob/dongwoo/Day7/Untitled%20(1).png)
+https://github.com/passgiant/ssafy_study/blob/dongwoo/Day7/Untitled%20(1).png
 
 N을 6이라고 가정했을 때 그림과 같이 6*6형태로 되어있습니다.
 
