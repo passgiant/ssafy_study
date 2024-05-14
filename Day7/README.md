@@ -8,7 +8,7 @@ https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&co
 
 각 문자는 ‘o’또는 ‘.’으로, ‘o’는 돌이 있는 칸을 의미하고, ‘.’는 돌이 없는 칸을 의미한다.
 
-https://github.com/passgiant/ssafy_study/blob/dongwoo/Day7/Untitled%20(1).png
+![Untitled (1)](https://github.com/passgiant/ssafy_study/assets/107997462/e626218e-b2f2-42bd-8511-89f975b1829a)
 
 N을 6이라고 가정했을 때 그림과 같이 6*6형태로 되어있습니다.
 
@@ -20,11 +20,11 @@ for문을 통해 완전탐색을 진행하는데 현재 좌표를 **si,sj**로 �
 
  
 
-https://github.com/passgiant/ssafy_study/blob/dongwoo/Day7/Untitled%20(2).png
+![Untitled (2)](https://github.com/passgiant/ssafy_study/assets/107997462/f6b34574-630e-488c-9b05-1ac190aee586)
 
 예를 들어 이런 상황일 때, si, sj = 0,0 이고 방향 좌표인 di, dj가 열 방향인 (1,0) 이면 처음 방향 좌표인 행을 탐색했을 때 연속된 돌이 없었기 때문에 열 방향을 탐색합니다.
 
-https://github.com/passgiant/ssafy_study/blob/dongwoo/Day7/Untitled%20(3).png
+![Untitled (3)](https://github.com/passgiant/ssafy_study/assets/107997462/ab48ffd1-e0cb-4b8d-91e0-344b476306a4)
 
 5번 연속된 돌을 찾아야 하기 때문에 for 루프를 5번 돌고, mul에 인덱스 값을 넣어 루프가 돌아갈 때마다 방향좌표에 인덱스 값을 곱해 현재 좌표를 기준으로 연속된 방향에 5번 돌이 있는지 체크 합니다. 
 
@@ -33,7 +33,7 @@ https://github.com/passgiant/ssafy_study/blob/dongwoo/Day7/Untitled%20(3).png
 ni,nj가 범위내에 없거나 돌이 없으면 break를 통해 다음 방향으로 체크하겠금 합니다.
 
 그렇게 모든 for문을 돌렸을 때 5개의 연속된 돌을 찾을 수 없으면 return ‘NO’를 반환해줍니다.
-https://github.com/passgiant/ssafy_study/blob/dongwoo/Day7/Untitled.png
+![Untitled](https://github.com/passgiant/ssafy_study/assets/107997462/4fe3a787-45df-4230-b455-86c8be38ec0c)
 
 참고 사이트:
 
