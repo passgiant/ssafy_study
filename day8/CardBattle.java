@@ -75,8 +75,8 @@ class CardBattle
 				defeat++;
 			}
 		} else {
-			Set<Integer> nextSet = new HashSet();
-			int remainTurn = inRemain.size();
+//			Set<Integer> nextSet = new HashSet();
+//			int remainTurn = inRemain.size();
 			
 			for (int i = 0; i < inRemain.size(); i++) {
 				ArrayList<Integer> nextArr = new ArrayList();
