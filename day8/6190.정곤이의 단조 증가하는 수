@@ -1,0 +1,30 @@
+T = int(input())
+for test_case in range(1, T+1):
+  n = int(input())
+  lst = list(map(int, input().split()))
+  mul_lst = []
+  for i, j in enumerate(lst):
+    for k in lst[i+1:]:
+      mul_lst.append(j*k)
+
+  mul_lst_s = []
+  for i in mul_lst:
+    mul_lst_s.append(str(i))
+  ans = []
+  for i in mul_lst_s:
+    if len(i) == 1:
+      ans.append(int(i))
+    temp = int(i[0])
+    flag = True
+    for j in i[1:]:
+      if int(j) < temp:
+        flag = False
+        break
+      temp = int(j)
+    if flag:
+      ans.append(int(i))
+
+  if not ans:
+    ans.append(-1)
+  
+  print(f'#{test_case} {max(ans)}')
