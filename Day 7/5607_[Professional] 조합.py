@@ -18,7 +18,6 @@ def div_pow(n1, n2):
 
 def solution():
     N, R = map(int, input().split())
-    C = 1234567891
 
     '''
     (n! (mod C)) * ((r! * (n - r)!)^(C - 2)) (mod C))
