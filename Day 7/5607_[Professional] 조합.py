@@ -28,10 +28,10 @@ def solution():
     b = (r! (mod C) * (n - r)! (mod C) )^(C - 2)
     '''
 
-    a = fibo[N]
+    a = factorial[N]
     
     # (n1 mod m * n2 mod m) mod m = (n1 * n2) mod m
-    b = div_pow((fibo[R] * fibo[N - R]) % C, C - 2)
+    b = div_pow((factorial[R] * factorial[N - R]) % C, C - 2)
 
 
     return (a * b) % C
@@ -41,11 +41,11 @@ T = int(input())
 
 C = 1234567891
 
-fibo = {}
-fibo[0] = 1 % C
+factorial = {}
+factorial[0] = 1 % C
 
 for i in range(1, 1000001):
-    fibo[i] = (fibo[i - 1] * i) % C
+    factorial[i] = (factorial[i - 1] * i) % C
 
 for test_case in range(1, T + 1):
 
