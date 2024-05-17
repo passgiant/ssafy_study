@@ -3,7 +3,7 @@ def solution():
     global num
     stack = []
     div = 10**(N - 1)
-    for idx in range(N):
+    for _ in range(N):
         now_num = num // div
         num %= div
         div //= 10

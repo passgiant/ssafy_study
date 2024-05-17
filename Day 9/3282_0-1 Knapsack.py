@@ -8,7 +8,6 @@ def solution():
             else:
                 dp[row][col] = max(dp[row - 1][col], dp[row - 1][col - v[row]] + c[row])
 
-    print(dp)
     return dp[N][K]
 
 T = int(input())
